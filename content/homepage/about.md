@@ -1,5 +1,5 @@
 ---
-title: Example Author
+title: 关于我
 draft: false
 role: Example Role
 avatar: images/icon.png
