@@ -8,9 +8,6 @@ organization:
   name: Example Organization
   url: https://example.com/
 social:
-  - icon: house
-    iconPack: fas
-    url: 
   - icon: envelope
     iconPack: fas
     url: mailto:wen.constantine@gmail.com
