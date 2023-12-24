@@ -16,9 +16,9 @@ style:
 
 # E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
 siteType: Person
-icon: images/icon.png
-publisherName: WANG Chucheng
-publisherLogo:
+icon: images/wen.jpg
+publisherName: Wen
+publisherLogo: 
 
 highlight:
   handler: highlightjs

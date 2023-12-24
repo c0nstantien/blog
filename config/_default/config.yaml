@@ -1,5 +1,5 @@
 baseURL: /
-title: Eureka Demo
+title: Wen's Blog
 
 # Uncomment when not installing with Hugo Modules
 # theme: eureka
@@ -8,9 +8,7 @@ theme: wangchucheng.com/hugo-eureka
 # If you cannot access the Github mirror, you can also use the Gitee mirror: gitee.com/wangchucheng/hugo-eureka
 
 paginate: 3
-copyright: >
-  &copy; 2021 <a href="https://www.wangchucheng.com/">WANG Chucheng</a> and <a
-  href="https://www.ruiqima.com/">MA Ruiqi</a>
+copyright: "© 2022 - 2023 Wen's Blog"
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
