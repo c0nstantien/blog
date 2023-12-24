@@ -1,26 +1,26 @@
 ---
 title: 关于我
 draft: false
-role: Example Role
+role: DevOps
 avatar: images/wen.jpg
-bio: Aenean vel bibendum quam. Aliquam at mollis quam. Proin efficitur.
+bio: 实事求是 & Keep it simple and stupid
 organization:
-  name: Example Organization
-  url: https://example.com/
+  name: V 我 50
+  url: https://github.com/c0nstantien
 social:
   - icon: envelope
     iconPack: fas
     url: mailto:wen.constantine@gmail.com
   - icon: github
     iconPack: fab
-    url: https://c0nstantien.github.com/
+    url: https://github.com/c0nstantien
 
 weight: 1
 widget:
   handler: about
 
   # Options: sm, md, lg and xl. Default is md.
-  width:
+  width: lg
 
   sidebar:
     # Options: left and right. Leave blank to hide.
@@ -31,11 +31,11 @@ widget:
   background:
     # Options: primary, secondary, tertiary or any valid color value. Default is primary.
     color: secondary
-    image:
+    image: 
     # Options: auto, cover and contain. Default is auto.
-    size:
+    size: 
     # Options: center, top, right, bottom, left.
-    position:
+    position: 
     # Options: fixed, local, scroll.
     attachment: 
 ---

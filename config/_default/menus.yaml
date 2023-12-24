@@ -7,4 +7,4 @@ main:
     weight: 2
   - name: Docs
     url: /docs/
-    weight: 3
+    weight: 3   
