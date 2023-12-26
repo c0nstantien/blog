@@ -1,4 +1,5 @@
 baseURL: /
+canonifyURLs: true
 title: Wen's Blog
 
 # Uncomment when not installing with Hugo Modules
