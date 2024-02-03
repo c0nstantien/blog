@@ -41,7 +41,7 @@ comment:
     # Browse https://utteranc.es/ to see the options available.
     # If you want the color scheme of utterances to follow eureka's, you can set `theme: eureka`.
     repo: c0nstantien/blog
-    issue-term: pathname
+    issue-term: title
     theme: eureka
 ```
 ***
