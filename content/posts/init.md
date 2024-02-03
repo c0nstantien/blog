@@ -1,16 +1,47 @@
 ---
-title: 初始化博客仓库
-description: 博客仓库的第一篇文章
+title: 静态博客搭建
+description: 搭建基于 Hugo，托管于 GitHub Pages 的个人静态博客
 toc: true
 authors: []
 tags: []
 categories: []
 series: []
-date: 2023-12-24T21:50:28+08:00
-lastmod: 2023-12-24T21:50:28+08:00
+date: 2024-02-03T13:50:28+08:00
+lastmod:
 featuredVideo:
 featuredImage:
 draft: false
 ---
-记录下搭建基于 `Github Pages` & `Hugo` 的博客
-## 新建仓库
+记录基于 [Hugo Eureka 模板](https://www.wangchucheng.com/zh/docs/hugo-eureka/)的静态博客搭建过程
+> 希望这个博客能持续坚持下去，记录自己学习与折腾的各种过程
+## 初始化
+按照 Hugo Eureka 中的步骤安装相关依赖及初始化仓库即可
+## 配置修改
+按照实际情况修改项目配置，主要修改以下几个配置：
+```yml
+# 博客根目录
+baseURL: /
+# 构建发布时使用，配合 hugo server --baseURL 参数
+canonifyURLs: true
+title: Wen's Blog
+```
+其他配置按照模板中的教程按需修改即可
+## 发布到 Github Pages
+Hugo 中已有[官方教程](https://gohugo.io/hosting-and-deployment/hosting-on-github/)，按照教程操作即可完成发布
+## 添加评论系统
+按照模板教程中的[评论](https://www.wangchucheng.com/zh/docs/hugo-eureka/customization/#%E8%AF%84%E8%AE%BA)进行配置即可，比较了几种评论系统，最终选择了维护在 GitHub 上 [utterances](https://utteranc.es/)，因为它不需要额外的服务器支持，评论数据直接存储在 GitHub Issue 中，方便管理。配置步骤如下：
+1. 在 GitHub 上为博客仓库安装 utterances 应用
+2. 在博客仓库的配置文件中添加评论配置
+```yml
+comment:
+  # Options: disqus, commento, valine and utterances.
+  handler: utterances
+
+  utterances:
+    # Browse https://utteranc.es/ to see the options available.
+    # If you want the color scheme of utterances to follow eureka's, you can set `theme: eureka`.
+    repo: c0nstantien/blog
+    issue-term: pathname
+    theme: eureka
+```
+***

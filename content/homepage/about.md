@@ -3,7 +3,7 @@ title: 关于我
 draft: false
 role: DevOps
 avatar: images/wen.jpg
-bio: 实事求是 & Keep it simple and stupid
+bio: 实事求是
 organization:
   name: V 我 50
   url: https://github.com/c0nstantien

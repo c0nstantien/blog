@@ -9,7 +9,7 @@ theme: wangchucheng.com/hugo-eureka
 # If you cannot access the Github mirror, you can also use the Gitee mirror: gitee.com/wangchucheng/hugo-eureka
 
 paginate: 3
-copyright: "© 2022 - 2023 Wen's Blog"
+copyright: "© 2024 Wen's Blog"
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
