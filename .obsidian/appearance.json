@@ -2,8 +2,8 @@
   "accentColor": "",
   "theme": "obsidian",
   "cssTheme": "Atom",
-  "monospaceFontFamily": "Cascadia Code",
-  "textFontFamily": "霞鹜文楷",
+  "monospaceFontFamily": "Cascadia Code,霞鹜文楷",
+  "textFontFamily": "霞鹜文楷,Cascadia Code",
   "interfaceFontFamily": "霞鹜文楷",
   "baseFontSize": 20,
   "translucency": false

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f4aea9cdb40128e5",
+        "id": "4dea01dfb0dd122d",
         "type": "tabs",
         "children": [
           {
-            "id": "33bcbfb511700c99",
+            "id": "838478334c095dad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/静态博客搭建.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/静态博客搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/posts/静态博客搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,16 +124,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/posts/静态博客搭建.md"
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,6 +147,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "2868c624dbfd7c54",
-  "lastOpenFiles": []
+  "active": "838478334c095dad",
+  "lastOpenFiles": [
+    "content/posts/使用 Obsidian 写作.md",
+    "template/frontmatter.md",
+    "content/posts/静态博客搭建.md",
+    "template",
+    "content/posts/_index.md",
+    "content/homepage/index.md",
+    "content/homepage/about.md",
+    "2024-02-03.md"
+  ]
 }
