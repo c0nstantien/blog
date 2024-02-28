@@ -4,7 +4,7 @@
   "cssTheme": "Atom",
   "monospaceFontFamily": "Cascadia Code,霞鹜文楷",
   "textFontFamily": "霞鹜文楷,Cascadia Code",
-  "interfaceFontFamily": "霞鹜文楷",
-  "baseFontSize": 20,
+  "interfaceFontFamily": "霞鹜文楷,Cascadia Code",
+  "baseFontSize": 23,
   "translucency": false
 }
